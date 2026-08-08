@@ -1,1 +1,3 @@
 # LearnGo
+
+Learning through projects
