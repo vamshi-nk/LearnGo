@@ -4,6 +4,23 @@ import (
 	"fmt"
 )
 
+func validatemark(marks int ) bool {
+
+
+	if marks < 0 {
+		//fmt.Println("Invalid")
+		return false
+		
+	}else if marks > 100{
+
+		return false
+
+	}else{
+
+		return true
+	}
+}
+
 func main() {
 	var student_name string
 	var (
@@ -13,6 +30,7 @@ func main() {
 		total_marks    int
 		average_marks  float64
 		grade          string
+		result			bool
 	)
 
 	fmt.Println("Please enter you're name :")
@@ -20,12 +38,29 @@ func main() {
 
 	fmt.Println("Enter your Maths marks :")
 	fmt.Scan(&math_marks)
+	result = validatemark(math_marks)
+	if result == false{
+		fmt.Println("Invalid Maths marks. Enter a value between 0 and 100.")
+		return	
+	}
 
 	fmt.Println("Enter your Physics marks")
 	fmt.Scan(&physics_marks)
+	result = validatemark(physics_marks)
+	if result == false{
+		fmt.Println("Invalid Physics marks. Enter a value between 0 and 100.")
+		return	
+	}
+
 
 	fmt.Println("Enter your Computer marks ")
 	fmt.Scan(&computer_marks)
+	result = validatemark(computer_marks)
+	if result == false{
+		fmt.Println("Invalid Computer marks. Enter a value between 0 and 100.")
+		return	
+	}
+
 
 	total_marks = math_marks + physics_marks + computer_marks
 
