@@ -8,7 +8,7 @@ func validatemark(marks int ) bool {
 
 
 	if marks < 0 {
-		//fmt.Println("Invalid")
+
 		return false
 		
 	}else if marks > 100{
