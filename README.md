@@ -1,106 +1,50 @@
-# LearnGo 🚀
+# LearnGo
 
-My journey of learning **Go (Golang)** and backend development by building projects.
+Learning Go by building small projects and gradually moving toward backend development.
 
-I am learning by doing — writing code, making mistakes, debugging, and improving.
+## Projects
 
----
+### 1. Student Grade Calculator
 
-## Project 1: Student Grade Calculator 🎓
+**Status:** ✅ Completed
 
-A simple command-line program written in Go.
+Learned:
 
-The program:
+* Variables and data types
+* Input and output
+* Operators
+* `if/else`
+* Functions
+* Boolean returns
+* Validation
+* Type conversion
+* Basic error handling
+* Git branching and merging
 
-- Takes the student's name
-- Takes marks for Maths, Physics, and Computer
-- Checks if marks are between 0 and 100
-- Calculates total marks
-- Calculates average marks
-- Assigns a grade
-- Displays the student's report
+### 2. Number Guessing Game
 
-### Example
+**Status:** ✅ Completed
 
-    Please enter your name:
-    Vamshi
+Features:
 
-    Enter your Maths marks:
-    85
+* Random number from 0–100
+* User guesses the number
+* Too high / too low hints
+* Maximum 7 attempts
+* Attempt counter
+* Win/lose condition
 
-    Enter your Physics marks:
-    90
+Learned:
 
-    Enter your Computer marks:
-    80
+* `for` loops
+* Loop conditions
+* `break`
+* Random numbers with `rand.Intn()`
+* Program state
+* Debugging logic and compiler errors
 
-    ***** Student Report *****
+## Goal
 
-    Student Name : Vamshi
-    Mathematics  : 85
-    Physics      : 90
-    Computer     : 80
+Learn Go through projects and move toward:
 
-    Total Marks  : 255
-    Average      : 85
-    Grade        : B
-
----
-
-## What I Learned 🧠
-
-While building this project, I learned and practiced:
-
-- Variables
-- Data types
-- Operators
-- User input and output
-- `if`, `else if`, `else`
-- Boolean values
-- Functions
-- Function parameters
-- Return values
-- Type conversion
-- Basic input validation
-- Basic error handling
-- Packages
-- Go modules
-- Git and GitHub
-- Creating branches
-- Switching branches
-- Merging branches
-- Stashing changes
-
-I also learned that making mistakes and debugging them is part of learning.
-
----
-
-## Tools 🛠️
-
-- Go
-- Git
-- GitHub
-- Neovim / LazyVim
-- macOS Terminal
-
----
-
-## Projects 🚀
-
-- [x] Student Grade Calculator
-- [ ] Number Guessing Game
-- [ ] CLI To-Do List
-- [ ] Contact Manager
-- [ ] Expense Tracker
-- [ ] File-Based Notes App
-- [ ] REST API
-- [ ] PostgreSQL Backend
-- [ ] Authentication API
-
----
-
-## Goal 🎯
-
-Learn Go and backend development by building real projects and eventually contribute to open-source projects.
-
-**Learn → Build → Break → Debug → Improve → Repeat.**
+**Go Fundamentals → Backend Development → APIs → Databases → Real Backend Projects → Open Source**
